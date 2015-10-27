@@ -1,0 +1,166 @@
+/**********
+/* Siatka - 960.gs
+**********/
+/* line 5, D:/wamp/www/c1/pliki/cv.scss */
+.container_16 {
+  max-width: 960px;
+  width: 92%;
+  margin: 0 auto; }
+
+/* line 14, D:/wamp/www/c1/pliki/cv.scss */
+.grid_6,
+.grid_8,
+.grid_10,
+.grid_16 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+/* line 22, D:/wamp/www/c1/pliki/cv.scss */
+.container_16 .grid_6 {
+  width: 35.5%; }
+
+/* line 26, D:/wamp/www/c1/pliki/cv.scss */
+.container_16 .grid_8 {
+  width: 48.0%; }
+
+/* line 30, D:/wamp/www/c1/pliki/cv.scss */
+.container_16 .grid_10 {
+  width: 60.5%; }
+
+/* line 34, D:/wamp/www/c1/pliki/cv.scss */
+.container_16 .grid_16 {
+  width: 98.0%; }
+
+/* line 38, D:/wamp/www/c1/pliki/cv.scss */
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* line 49, D:/wamp/www/c1/pliki/cv.scss */
+.clearfix {
+  display: inline-block; }
+
+/* line 53, D:/wamp/www/c1/pliki/cv.scss */
+* html .clearfix {
+  height: 1%; }
+
+/* line 57, D:/wamp/www/c1/pliki/cv.scss */
+.clearfix {
+  display: block; }
+
+/* line 61, D:/wamp/www/c1/pliki/cv.scss */
+header[role="banner"] {
+  background: #FFF none repeat scroll 0% 0%;
+  border-bottom: 4px solid #33A4C9;
+  padding: 19px 0px;
+  overflow: hidden; }
+  /* line 66, D:/wamp/www/c1/pliki/cv.scss */
+  header[role="banner"] hgroup {
+    float: left;
+    padding: 42px 0px; }
+    /* line 69, D:/wamp/www/c1/pliki/cv.scss */
+    header[role="banner"] hgroup h1 {
+      color: #555;
+      font-family: "DridSansBold", Arial, sans-serif; }
+  /* line 74, D:/wamp/www/c1/pliki/cv.scss */
+  header[role="banner"] figure {
+    border: 3px solid #EEE;
+    border-radius: 78px;
+    float: right;
+    height: 156px;
+    width: 156px; }
+    /* line 80, D:/wamp/www/c1/pliki/cv.scss */
+    header[role="banner"] figure img {
+      border-radius: 75px;
+      height: 150px;
+      position: relative;
+      width: 150px; }
+
+/* line 89, D:/wamp/www/c1/pliki/cv.scss */
+::-webkit-input-placeholder {
+  color: #fff; }
+
+/* line 93, D:/wamp/www/c1/pliki/cv.scss */
+input:-moz-placeholder {
+  color: #fff; }
+
+/* line 97, D:/wamp/www/c1/pliki/cv.scss */
+.placeholder {
+  color: #fff; }
+
+/* line 101, D:/wamp/www/c1/pliki/cv.scss */
+section[role=main] {
+  padding: 21px 0;
+  overflow: hidden; }
+  /* line 104, D:/wamp/www/c1/pliki/cv.scss */
+  section[role=main] div {
+    margin-top: 63px; }
+  /* line 107, D:/wamp/www/c1/pliki/cv.scss */
+  section[role=main] h3 {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0 0 20px 60px;
+    margin-top: 0px;
+    position: relative; }
+  /* line 114, D:/wamp/www/c1/pliki/cv.scss */
+  section[role=main] h3:after,
+  section[role=main] h3:before {
+    content: ' ';
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: -15px;
+    width: 50px; }
+  /* line 123, D:/wamp/www/c1/pliki/cv.scss */
+  section[role=main] h3:before {
+    background-color: #33a4c9;
+    border-radius: 25px; }
+
+/* line 130, D:/wamp/www/c1/pliki/cv.scss */
+section .competences .tags li {
+  background-color: #33a4c9;
+  border: 1px solid #1b91b7;
+  border-radius: 15px;
+  color: #fff;
+  display: inline-block;
+  line-height: 13px;
+  margin: 0 7px 17px 0;
+  padding: 5px 10px; }
+
+/* line 140, D:/wamp/www/c1/pliki/cv.scss */
+section .competences .barres li {
+  margin-bottom: 21px;
+  position: relative; }
+
+/* line 144, D:/wamp/www/c1/pliki/cv.scss */
+section .competences .barres li:after {
+  background: #e1e1e1;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100%; }
+
+/* line 153, D:/wamp/www/c1/pliki/cv.scss */
+section .competences .barres li span {
+  background: #33a4c9;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 1; }
+
+/*# sourceMappingURL=cv.css.map */

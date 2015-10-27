@@ -471,7 +471,7 @@ button {
 }
 
 .single-project:nth-of-type(1) .cd-title::before {
-    background-image: url(../img/skate.jpg);
+    background-image: url(../img/l1.jpg);
 }
 
 .single-project:nth-of-type(2) .cd-title {
@@ -479,7 +479,7 @@ button {
 }
 
 .single-project:nth-of-type(2) .cd-title::before {
-    background-image: url(../img/snowboard.jpg);
+    background-image: url(../img/download.jpg);
 }
 
 .single-project:nth-of-type(3) .cd-title {
@@ -487,7 +487,7 @@ button {
 }
 
 .single-project:nth-of-type(3) .cd-title::before {
-    background-image: url(../img/stars.jpg);
+    background-image: url(../img/2.jpg);
 }
 
 .single-project:nth-of-type(1) .cd-title::before,
